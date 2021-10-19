@@ -1,0 +1,82 @@
+.grid-layout main.home{
+    display: grid;
+    max-width: fit-content;
+    max-height: fit-content;
+    grid-template-areas: 
+    "h2"
+    "article"
+    "article"
+    "aside";
+}
+
+.grid-layout h2 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.grid-layout main.favorites{
+    display: grid;
+    max-width: fit-content;
+    max-height: fit-content;
+    grid-template-columns: 100%;
+}
+
+.grid-layout .favorites #article1 {
+    grid-row: 3 / 4;
+}
+
+.grid-layout .favorites #img1 {
+    grid-row: 2 / 3;
+}
+
+.grid-layout .favorites #article2 {
+    grid-row: 5 / 6;
+}
+
+.grid-layout .favorites #img2 {
+    grid-row: 4 / 5;
+}
+
+.grid-layout .favorites #article3 {
+    grid-row: 7 / 8;
+}
+
+.grid-layout .favorites #img3 {
+    grid-row: 6 / 7;
+}
+
+.grid-layout .favorites #article4 {
+    grid-row: 9 / 10;
+}
+
+.grid-layout .favorites #img4 {
+    grid-row: 8 / 9;
+}
+
+.grid-layout .favorites #article5 {
+    grid-row: 11 / 12;
+}
+
+.grid-layout .favorites #img5 {
+    grid-row: 10 / 11;
+}
+
+.grid-layout .favorites aside {
+    grid-row: 12 / 13;
+}
+
+.grid-layout main.opinions{
+    display: grid;
+    max-width: fit-content;
+    max-height: fit-content;
+    grid-template-columns: 100%;
+    grid-gap: 2em;
+    
+}
+
+.positioning nav a {
+    padding: 0.2em;
+}
+
+h2 {
+    font-size: large;
+}
